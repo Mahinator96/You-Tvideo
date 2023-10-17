@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You-Tvideo - удобный видеохостинг для тебя</title>
+
+  <link href="./styles/normalize.css" rel="stylesheet">
+  <link href="./styles/base.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__link" href="/">
+        <svg class="header__logo" viewBox="0 0 240 32">
+          <use xlink:href="./image/sprite.svg#logo-orange" role="img" aria-label="Логотип сервиса You-Tvideo"></use>
+        </svg>
+      </a>
+
+      <a class="header__link header__link--favorite" href="/favorite.html">Избранное</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <a class="hero__link" href="/favorite.html">Избранное</a>
+
+        <svg class="hero__logo" viewBox="0 0 360 48">
+          <use xlink:href="./image/sprite.svg#logo-white" role="img" aria-label="Логотип сервиса You-Tvideo"></use>
+        </svg>
+
+        <h1 class="hero__title">Смотри. Загружай. Создавай</h1>
+
+        <p class="hero__tagline">Удобный видеохостинг для тебя</p>
+      </div>
+    </section>
+
+    <section class="search">
+      <div class="container search__container">
+        <form class="search__form">
+          <label class="search__label">
+            <input class="search__input" type="search">
+            <button class="search__btn" type="submit">поиск</button>
+          </label>
+        </form>
+      </div>
+    </section>
+
+    <section class="video-list">
+      <div class="container video-list__container">
+        <h2 class="video-list__title">В тренде</h2>
+
+        <ul class="video-list__items">
+          <li class="video-list__item">
+            <article class="video-card">
+              <a class="video-card__link" href="/video.html?111">
+                
+                <h3 class="video-card__title">Философия Идущего к реке</h3>
+
+                <p class="video-card__channel">Правое полушарие интроверта</p>
+
+                <p class="video-card__duration">31 мин 25 сек</p>
+                
+                <img class="video-card__thumbnail" src="./image/img-1.jpg" alt="Превью к видео Философия Идущего к реке">
+              </a>
+
+              <button class="video-card__favorite" type="button"></button>
+            </article>
+          </li>
+
+          <li class="video-list__item">
+            <article class="video-card">
+              <a class="video-card__link" href="/video.html?111">
+                
+                <h3 class="video-card__title">Как выжить в Средние века?</h3>
+
+                <p class="video-card__channel">Правое полушарие интроверта</p>
+
+                <p class="video-card__duration">31 мин 25 сек</p>
+                
+                <img class="video-card__thumbnail" src="./image/img-2.jpg" alt="Превью к видео Как выжить в Средние века?">
+              </a>
+
+              <button class="video-card__favorite" type="button"></button>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>      
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a class="footer__link" href="/">
+        <svg class="footer__logo" viewBox="0 0 360 48">
+          <use xlink:href="./image/sprite.svg#logo-white" role="img" aria-label="Логотип сервиса You-Tvideo"></use>
+        </svg>
+      </a>
+
+      <ul class="footer__developers">
+        <li class="footer__developers-item">
+          Designer: <a class="footer__developers-link" href="https://t.me/Mrshmallowww" target="_blank" rel="noopener">Anastasia Ilina</a>
+        </li>
+        <li class="footer__developers-item">
+          <a class="footer__developers-link" href="https://t.me/VasilievDevelop" target="_blank" rel="noopener">Developer: Evgeniy Vasiliev</a>
+        </li>
+      </ul>
+      
+
+      <p class="footer__copyright">© You-Tvideo, 2023 </p>
+      
+    </div>
+  </footer> //* click
+</body>
+</html>
